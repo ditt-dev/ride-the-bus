@@ -1,8 +1,7 @@
 'use client';
 
-import MainHeader from '@/app/_components/MainHeader';
-
 import { useState } from 'react';
+import { MainHeader } from '@/components/index';
 
 // interface GlobalStates {
 // 	credit: number;

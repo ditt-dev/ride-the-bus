@@ -1,6 +1,6 @@
 //TODO: 'with these multipliers, the optimal betting strategy would have been...', 'this round has been accessed x times', 'why math'
 
-import Card from '@/app/_lib/classes';
+import Card from '@/lib/classes';
 
 // GLOBAL VARIABLES
 

@@ -10,11 +10,17 @@ import card20 from '@/public/faces/20.svg';
 import card30 from '@/public/faces/30.svg';
 import cardBack from '@/public/backs/red2.svg';
 
+import { useTheme } from '@mui/material/styles';
+
 export default function CardsContainer() {
 	const history = [cardBack, card0, card10, card20, card30];
 	// const history = [];
 
 	const [round, setRound] = useState(1);
+
+	const theme = useTheme();
+
+	const rounds = { 0: { left: cardBack, right: cardBack } };
 
 	switch (round) {
 		case 3:
@@ -57,6 +63,23 @@ export default function CardsContainer() {
 				</Stack>
 			);
 		default:
-			return <></>;
+			return (
+				<Stack
+					direction={'row'}
+					divider={<Divider orientation={'vertical'} />}
+					spacing={2}
+					sx={{ height: '100%' }}
+				>
+					{/* Display history from rounds 3 and 4 */}
+					<Stack
+						direction={'row'}
+						divider={<Divider orientation={'vertical'} />}
+						sx={{ flex: 3 }}
+					>
+						<CardBox name={'\u00A0'} src={cardBack} />
+						<CardBox name={'test'} src={history.at(4)} />
+					</Stack>
+				</Stack>
+			);
 	}
 }

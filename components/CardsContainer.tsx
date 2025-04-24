@@ -78,6 +78,8 @@ export default function CardsContainer() {
 					>
 						<CardBox name={'\u00A0'} src={cardBack} />
 						<CardBox name={'test'} src={history.at(4)} />
+						<CardBox name={'test'} src={history.at(4)} />
+						<CardBox name={'Jack of Spades'} src={history.at(4)} />
 					</Stack>
 				</Stack>
 			);

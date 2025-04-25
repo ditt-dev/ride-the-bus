@@ -1,5 +1,5 @@
 import { CardBox } from '@/components/index';
-import { Box, Divider, Stack } from '@mui/material';
+import { Box, Divider, Grid, Stack } from '@mui/material';
 import { useState } from 'react';
 
 import Image from 'next/image';
@@ -64,24 +64,48 @@ export default function CardsContainer() {
 			);
 		default:
 			return (
-				<Stack
-					direction={'row'}
-					divider={<Divider orientation={'vertical'} />}
-					spacing={2}
-					sx={{ height: '100%' }}
-				>
-					{/* Display history from rounds 3 and 4 */}
-					<Stack
-						direction={'row'}
-						divider={<Divider orientation={'vertical'} />}
-						sx={{ flex: 3 }}
-					>
-						<CardBox name={'\u00A0'} src={cardBack} />
-						<CardBox name={'test'} src={history.at(4)} />
-						<CardBox name={'test'} src={history.at(4)} />
-						<CardBox name={'Jack of Spades'} src={history.at(4)} />
-					</Stack>
-				</Stack>
+				<Grid container spacing={1} sx={{ height: '100%' }}>
+					<Grid size={{ xs: 6, sm: 3 }} sx={{ outline: 'solid green' }}>
+						<CardBox
+							name={
+								'\u00A0'
+								// <>
+								// 	{'\u00A0'}
+								// 	<br />
+								// 	{'\u00A0'}
+								// </>
+							}
+							src={cardBack}
+						/>
+					</Grid>
+					<Grid size={{ xs: 6, sm: 3 }}>
+						<CardBox name={'Jack of Spades'} src={cardBack} />
+					</Grid>
+					<Grid size={{ xs: 6, sm: 3 }}>
+						<CardBox name={'Jack of Spades'} src={cardBack} />
+					</Grid>
+					<Grid size={{ xs: 6, sm: 3 }}>
+						<CardBox name={'Jack of Spades'} src={cardBack} />
+					</Grid>
+				</Grid>
+				// <Stack
+				// 	direction={'row'}
+				// 	divider={<Divider orientation={'vertical'} />}
+				// 	spacing={2}
+				// 	sx={{ height: '100%' }}
+				// >
+				// 	{/* Display history from rounds 3 and 4 */}
+				// 	<Stack
+				// 		direction={'row'}
+				// 		divider={<Divider orientation={'vertical'} />}
+				// 		sx={{ flex: 3 }}
+				// 	>
+				// 		<CardBox name={'\u00A0'} src={cardBack} />
+				// 		<CardBox name={'test'} src={history.at(4)} />
+				// 		<CardBox name={'test'} src={history.at(4)} />
+				// 		<CardBox name={'Jack of Spades'} src={history.at(4)} />
+				// 	</Stack>
+				// </Stack>
 			);
 	}
 }

@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import Image from 'next/image';
 
 interface Props {
-	name: string;
+	name: string | React.ReactElement;
 	src: string;
 }
 
@@ -12,7 +12,7 @@ export default function CardBox({ name, src }: Props) {
 
 	return (
 		<Stack
-			spacing={1}
+			spacing={2}
 			sx={{
 				height: '100%',
 				paddingTop: theme.spacing(2),
@@ -20,11 +20,11 @@ export default function CardBox({ name, src }: Props) {
 				width: '100%',
 			}}
 		>
-			<Box sx={{ flex: 9, position: 'relative' }}>
+			<Box sx={{ flex: 8, position: 'relative' }}>
 				<Image alt={'name'} fill src={src} />
 			</Box>
 
-			<Typography variant={'h6'} sx={{ flex: 1 }}>
+			<Typography variant={'h6'} sx={{ flex: 2, lineHeight: 1.2 }}>
 				{name}
 			</Typography>
 		</Stack>

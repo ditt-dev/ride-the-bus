@@ -20,8 +20,6 @@ export default function CardsContainer() {
 
 	const theme = useTheme();
 
-	const rounds = { 0: { left: cardBack, right: cardBack } };
-
 	switch (round) {
 		case 3:
 			return (

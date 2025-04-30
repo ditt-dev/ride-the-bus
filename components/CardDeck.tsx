@@ -32,19 +32,6 @@ export default function CardDeck() {
 							outline: 'solid',
 							// width: `calc(${100 - 20 * i}%)`,
 							width: '50%',
-
-							// width: {
-							// 	xs: 80, // ≤ 600 px ­→ 80 px wide
-							// 	sm: 100, // ≥ 600 px ­→ 100 px
-							// 	md: 120, // ≥ 900 px ­→ 120 px
-							// 	lg: 140, // ≥ 1200 px ­→ 140 px
-							// },
-
-							// '& img': {
-							// 	width: '100%',
-							// 	height: 'auto',
-							// 	display: 'block',
-							// },
 						}}
 					>
 						<Image alt="" fill src={cardBack} />

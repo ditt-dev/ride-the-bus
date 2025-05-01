@@ -14,9 +14,6 @@ export default function CardDeck() {
 				width: '100%',
 				height: '100%',
 				display: 'flex',
-				// justifyContent: 'center',
-				// transform: 'translate(-15%)',
-				// maxWidth: '100%',
 				position: 'relative',
 			}}
 		>
@@ -30,7 +27,6 @@ export default function CardDeck() {
 							transform: `translate(${20 * i}%)`,
 							height: '100%',
 							outline: 'solid',
-							// width: `calc(${100 - 20 * i}%)`,
 							width: '50%',
 						}}
 					>

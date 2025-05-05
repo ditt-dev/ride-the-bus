@@ -64,17 +64,7 @@ export default function CardsContainer() {
 			return (
 				<Grid container spacing={1} sx={{ height: '100%' }}>
 					<Grid size={{ xs: 6, sm: 3 }} sx={{ outline: 'solid green' }}>
-						<CardBox
-							name={
-								'\u00A0'
-								// <>
-								// 	{'\u00A0'}
-								// 	<br />
-								// 	{'\u00A0'}
-								// </>
-							}
-							src={cardBack}
-						/>
+						<CardBox name={'\u00A0'} src={cardBack} />
 					</Grid>
 					<Grid size={{ xs: 6, sm: 3 }}>
 						<CardBox name={'Jack of Spades'} src={cardBack} />

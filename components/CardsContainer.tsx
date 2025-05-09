@@ -1,5 +1,5 @@
 import { CardBox } from '@/components/index';
-import { Box, Divider, Grid, Stack } from '@mui/material';
+import { Divider, Grid, Stack } from '@mui/material';
 import { useState } from 'react';
 
 import Image from 'next/image';

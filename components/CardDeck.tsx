@@ -1,7 +1,5 @@
 import { Box } from '@mui/material';
-
 import Image from 'next/image';
-
 import cardBack from '@/public/backs/red2.svg';
 
 export default function CardDeck() {

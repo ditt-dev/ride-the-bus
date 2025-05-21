@@ -22,6 +22,7 @@ import { useTheme } from '@mui/material/styles';
 export default function Home() {
 	const theme = useTheme();
 
+	// Reduce header height on for mobile viewport
 	const headerHeight = useMediaQuery(theme.breakpoints.down('sm')) ? 56 : 64;
 
 	// round1(0);

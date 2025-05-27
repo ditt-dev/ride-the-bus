@@ -11,7 +11,7 @@ export default class Card {
 		return this.n % 2;
 	}
 
-	// Return human-readable card value an suit
+	// Return human-readable card value and suit
 	get name() {
 		return `${Card.values.at(this.value)} of ${Card.suits.at(this.suit)}`;
 	}

@@ -76,24 +76,6 @@ export default function CardsContainer() {
 						<CardBox name={'Jack of Spades'} src={cardBack} />
 					</Grid>
 				</Grid>
-				// <Stack
-				// 	direction={'row'}
-				// 	divider={<Divider orientation={'vertical'} />}
-				// 	spacing={2}
-				// 	sx={{ height: '100%' }}
-				// >
-				// 	{/* Display history from rounds 3 and 4 */}
-				// 	<Stack
-				// 		direction={'row'}
-				// 		divider={<Divider orientation={'vertical'} />}
-				// 		sx={{ flex: 3 }}
-				// 	>
-				// 		<CardBox name={'\u00A0'} src={cardBack} />
-				// 		<CardBox name={'test'} src={history.at(4)} />
-				// 		<CardBox name={'test'} src={history.at(4)} />
-				// 		<CardBox name={'Jack of Spades'} src={history.at(4)} />
-				// 	</Stack>
-				// </Stack>
 			);
 	}
 }

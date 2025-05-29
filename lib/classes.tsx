@@ -2,7 +2,7 @@ export default class Card {
 	n: number;
 
 	constructor(n: number) {
-		// Format undefined errors to show 'ERROR' as suit and value
+		// Format undefined errors to show 'ERROR' as the suit and value
 		this.n = Card.deckTemplate.at(n) ?? 134;
 	}
 

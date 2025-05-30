@@ -10,6 +10,7 @@ let deck = Card.deckTemplate;
 const bet = 100;
 let currentTotal = -bet;
 
+// Round multipliers
 const mult = [2, 3, 4, 20];
 
 //--------

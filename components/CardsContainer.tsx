@@ -2,7 +2,7 @@ import { CardBox } from '@/components/index';
 import { Divider, Grid, Stack } from '@mui/material';
 import { useState } from 'react';
 
-// import Image from 'next/image';
+import Image from 'next/image';
 
 import card0 from '@/public/faces/0.svg';
 import card10 from '@/public/faces/10.svg';

@@ -18,7 +18,7 @@ export default function CardsContainer() {
 
 	const [round, setRound] = useState(1);
 
-	// const theme = useTheme();
+	const theme = useTheme();
 
 	switch (round) {
 		case 3:

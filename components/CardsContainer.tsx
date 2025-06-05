@@ -4,11 +4,11 @@ import { useState } from 'react';
 
 import Image from 'next/image';
 
-import card0 from '@/public/faces/0.svg';
-import card10 from '@/public/faces/10.svg';
-import card20 from '@/public/faces/20.svg';
-import card30 from '@/public/faces/30.svg';
-import cardBack from '@/public/backs/red2.svg';
+// import card0 from '@/public/faces/0.svg';
+// import card10 from '@/public/faces/10.svg';
+// import card20 from '@/public/faces/20.svg';
+// import card30 from '@/public/faces/30.svg';
+// import cardBack from '@/public/backs/red2.svg';
 
 import { useTheme } from '@mui/material/styles';
 

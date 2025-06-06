@@ -2,7 +2,7 @@
 
 import { CardsContainer } from '@/components';
 
-// import Image from 'next/image';
+import Image from 'next/image';
 // import card0 from '@/public/faces/0.svg';
 
 // import Card from '@/lib/classes';

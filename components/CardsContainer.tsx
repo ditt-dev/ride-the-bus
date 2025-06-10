@@ -14,7 +14,6 @@ import { useTheme } from '@mui/material/styles';
 
 export default function CardsContainer() {
 	const history = [cardBack, card0, card10, card20, card30];
-	// const history = [];
 
 	const [round, setRound] = useState(1);
 

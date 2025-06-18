@@ -9,7 +9,7 @@ import Card from '@/lib/classes';
 import { round1, round2, round3, round4, winMessage } from '@/lib/utils';
 
 import {
-	// Button,
+	Button,
 	Box,
 	Container,
 	Stack,

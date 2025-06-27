@@ -6,7 +6,7 @@ import Image from 'next/image';
 import card0 from '@/public/faces/0.svg';
 
 import Card from '@/lib/classes';
-import { round1, round2, round3, round4, winMessage } from '@/lib/utils';
+// import { round1, round2, round3, round4, winMessage } from '@/lib/utils';
 
 import {
 	Button,
@@ -25,11 +25,11 @@ export default function Home() {
 	// Reduce header height on for mobile viewport
 	const headerHeight = useMediaQuery(theme.breakpoints.down('sm')) ? 56 : 64;
 
-	round1(0);
-	round2(0);
-	round3(0);
-	round4(0);
-	winMessage();
+	// round1(0);
+	// round2(0);
+	// round3(0);
+	// round4(0);
+	// winMessage();
 
 	return (
 		<Container

@@ -6,7 +6,7 @@ import { CardsContainer } from '@/components';
 // import card0 from '@/public/faces/0.svg';
 
 // import Card from '@/lib/classes';
-// import { round1, round2, round3, round4, winMessage } from '@/lib/utils';
+import { round1, round2, round3, round4, winMessage } from '@/lib/utils';
 
 import {
 	// Button,

@@ -13,7 +13,7 @@ import {
 	Box,
 	Container,
 	Stack,
-	// Typography,
+	Typography,
 	useMediaQuery,
 } from '@mui/material';
 

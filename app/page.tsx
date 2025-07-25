@@ -29,7 +29,7 @@ export default function Home() {
 	// round2(0);
 	// round3(0);
 	// round4(0);
-	// winMessage();
+	winMessage();
 
 	return (
 		<Container

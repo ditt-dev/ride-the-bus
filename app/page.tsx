@@ -26,7 +26,7 @@ export default function Home() {
 	const headerHeight = useMediaQuery(theme.breakpoints.down('sm')) ? 56 : 64;
 
 	// round1(0);
-	// round2(0);
+	round2(0);
 	round3(0);
 	round4(0);
 	winMessage();
